@@ -1,6 +1,6 @@
 # DeepTick
 
-Waterproof timer for offshore research.
+Industrial-grade waterproof timers engineered for offshore research, marine operations, and subsea applications.
 
 More at [deeptick.io](https://deeptick.io)
 
