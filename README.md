@@ -8,7 +8,7 @@ More at [deeptick.io](https://deeptick.io)
 
 ## Firmware Releases
 
-## 1.0.3 (2026-01-17)
+### 1.0.3 (2026-01-17)
 
 - Do not show current session in session history
 
