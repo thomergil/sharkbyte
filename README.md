@@ -8,6 +8,10 @@ More at [deeptick.io](https://deeptick.io)
 
 ## Firmware Releases
 
+## 1.0.3 (2026-01-17)
+
+- Do not show current session in session history
+
 ### 1.0.2 (2026-01-16)
 
 - Battery trend tracking: display shows charging/discharging rate (mV/min)
