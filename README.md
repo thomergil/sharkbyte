@@ -8,6 +8,29 @@ More at [sharkbyte.watch](https://sharkbyte.watch)
 
 ## Firmware Releases
 
+### 1.0.6 (2026-09-26)
+
+- Battery trend shows "+" within seconds of connecting the charger
+- Battery trend shows a drain as soon as it stands out from noise
+- Battery readings average more samples for less noise
+- Web diagnostics show battery trend direction and noise
+
+### 1.0.5 (2026-09-24) — do not use
+
+- **Do not use.** Battery trend shows 0.0 almost all the time. Use 1.0.6
+- Battery trend no longer shows a false "+" after WiFi turns off
+- Battery trend is a fit over 10 minutes; shows 0.0 until ready
+- Battery percentage, voltage and trend use the same reading
+- Web firmware upload asks for a code shown on the display
+- Failed firmware start rolls back to the previous firmware
+- Saved WiFi and MQTT passwords no longer sent to the web page
+- MQTT push fixed for longer messages; sends newest battery log
+- Device ID limited so the WiFi name fits
+- Clock stops at 99:59 instead of wrapping at 100 hours
+- Let the display settle at boot so the splash screen shows
+- `make usb` keeps calibration and other saved data
+- `make test` runs host-side unit tests
+
 ### 1.0.4 (2026-01-19)
 
 - Rename to SharkByte
